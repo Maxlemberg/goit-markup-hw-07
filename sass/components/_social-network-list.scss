@@ -7,12 +7,12 @@
 }
 
 .social-network {
-  border-radius: 50%;
+  @include social-network-places()
+    /*border-radius: 50%;
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
-
-  display: flex;
+  background-color: #ffffff;*/
+    display: flex;
   justify-content: center;
   align-items: center;
 
